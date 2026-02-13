@@ -2,6 +2,8 @@
 
 name: CI
 
+#This will stage the app
+
 name: Stage the app
 
 on:
@@ -59,7 +61,7 @@ on:
 env:
   IMAGE_REGISTRY_URL: ghcr.io
   ###############################################
-  ### Replace <username> with GitHub username ###
+  ### Replace <user> with GitHub username ###
   ###############################################
   DOCKER_IMAGE_NAME: JaTech213-azure-ttt
   AZURE_WEBAPP_NAME: JaTech213-ttt-app
