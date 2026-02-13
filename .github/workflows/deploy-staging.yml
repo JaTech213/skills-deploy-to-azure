@@ -2,7 +2,7 @@
 
 name: CI
 
-# This runs a pull request to stage a app that runs on ubuntu-latest
+# Fixing
 
 name: Stage the app
 
